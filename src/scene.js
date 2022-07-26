@@ -68,7 +68,6 @@ export class ThreeScene {
 
     //Creates the orbit controls (to navigate the scene)
     this.controls = new OrbitControls(this.camera, this.canvas);
-    this.controls.enableDamping = true;
     this.controls.target.set(-2, 0, 0);
 
     // Stats

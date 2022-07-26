@@ -44299,7 +44299,6 @@ class ThreeScene {
 
     //Creates the orbit controls (to navigate the scene)
     this.controls = new OrbitControls(this.camera, this.canvas);
-    this.controls.enableDamping = true;
     this.controls.target.set(-2, 0, 0);
 
     // Stats
@@ -59946,7 +59945,7 @@ class FragmentLoader {
 const threeScene = new ThreeScene();
 const loader = new FragmentLoader();
 
-for(let i = 0; i < 458; i++) {
+for(let i = 0; i < 5; i++) {
     const geometryURL = `./model/${i}.glb`;
     const dataURL = `./model/${i}.json`;
     const fragment = await loader.load(geometryURL, dataURL);
