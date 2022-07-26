@@ -21,7 +21,8 @@
     "bim-fragment": "^0.0.4",
     "fragment": "^0.3.0",
     "stats.js": "^0.17.0",
-    "three": "^0.135.0"
+    "three": "^0.135.0",
+    "unzipit": "^1.4.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
