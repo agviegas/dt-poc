@@ -1,0 +1,31 @@
+{
+  "name": "dt-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agviegas/dt-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agviegas/dt-poc/issues"
+  },
+  "homepage": "https://github.com/agviegas/dt-poc#readme",
+  "dependencies": {
+    "bim-fragment": "^0.0.4",
+    "fragment": "^0.3.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.135.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.77.1"
+  }
+}
